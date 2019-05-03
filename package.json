@@ -1,0 +1,35 @@
+{
+  "name": "@musicplayer/logger-module",
+  "version": "1.0.0",
+  "description": "Logger module to use logging microservice",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stefanFCB94/musicplayer-logger-module.git"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/tsc",
+    "lint": "./node_modules/.bin/tslint -c tslint.json 'src/**/*.ts'",
+    "test": "./node_modules/.bin/jest",
+    "test-watch": "./node_modules/.bin/jest --watch",
+    "coverage": "./node_modules/.bin/jest --coverage"
+  },
+  "keywords": [],
+  "author": "Stefan Läufle",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^24.0.12",
+    "@types/moxios": "^0.4.8",
+    "@types/node": "^11.13.8",
+    "jest": "^24.7.1",
+    "moxios": "^0.4.0",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.16.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
