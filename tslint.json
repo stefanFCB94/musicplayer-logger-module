@@ -3,13 +3,6 @@
   "rules": {
     "max-line-length": false,
     "no-increment-decrement": false,
-    "no-consecutive-blank-lines": false,
-    "quotemark": [
-      true,
-      "single",
-      "avoid-escape",
-      "avoid-template",
-      "jsx-double",
-    ]
+    "no-consecutive-blank-lines": false
   }
 }
