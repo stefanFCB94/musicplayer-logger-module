@@ -4,6 +4,9 @@
   "description": "Logger module to use logging microservice",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/stefanFCB94/musicplayer-logger-module.git"
