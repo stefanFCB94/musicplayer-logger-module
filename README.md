@@ -31,9 +31,9 @@ logger.stop();
 
 ## Available functions
 
-*   log_error
-*   log_warn
-*   log_info
-*   log_verbose
-*   log_debug
-*   log_silly
+* log_error
+* log_warn
+* log_info
+* log_verbose
+* log_debug
+* log_silly
