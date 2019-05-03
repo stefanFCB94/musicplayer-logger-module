@@ -1,6 +1,6 @@
 {
   "name": "@musicplayer/logger-module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Logger module to use logging microservice",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
