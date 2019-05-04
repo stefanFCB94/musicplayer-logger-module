@@ -23,7 +23,7 @@ describe('Log verbose message', () => {
   it('should call the correct url', (done) => {
     log_verbose('123', 'abc');
 
-    process.nextTick(() => {
+    moxios.wait(() => {
       expect(moxios.requests.mostRecent().config.method).toEqual('post');
       expect(moxios.requests.mostRecent().url).toEqual('https://host:1234/v1/logs');
       done();
